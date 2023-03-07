@@ -56,7 +56,7 @@
           </svg>
         </button>
       </div>
-      <div class="mob-menu is-open" data-menu>
+      <div class="mob-menu is-hidden" data-menu>
         <button type="button" class="menu-close" data-menu-close>
           <svg class="menu-close-icon" width="8" height="8">
             <use href="./img/icons.svg#icon-close-button"></use>
@@ -207,7 +207,7 @@
         </div>
       </section>
       <section class="team section">
-        <div class="container">
+        <div class="container tablet-container">
           <h2 class="team-title title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
@@ -390,7 +390,7 @@
         </div>
       </section>
       <section class="customers">
-        <div class="container">
+        <div class="container tablet-container">
           <h2 class="customers-title title">Customers</h2>
           <ul class="customers-list list">
             <li class="customers-item">
@@ -440,7 +440,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-wrap container">
+      <div class="footer-wrap container tablet-container">
         <div class="footer-flex-container">
           <div class="footer-container">
             <a href="./index.html" class="footer-logo link logo"
@@ -485,10 +485,11 @@
             </ul>
           </div>
         </div>
+
         <div class="footer-subscribe">
           <p class="subscribe-subtitle subtitle">Subscribe</p>
-          <form class="subscribe-form">
-            <div class="footer-subscribe-wrap">
+          <div class="footer-subscribe-wrap">
+            <form class="subscribe-form">
               <label class="form-field">
                 <input
                   type="email"
@@ -506,8 +507,8 @@
                   </svg>
                 </span>
               </button>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
